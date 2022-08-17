@@ -1,0 +1,21 @@
+01 W-FicEnt.
+   05 W-FicEnt-TypEnr                    PIC X.
+      88 W-FicEnt-TypEnr-Ctr             VALUE 'C'.
+   	88 W-FicEnt-TypEnr-Tet             VALUE 'T'.
+   05 W-FicEnt-Don                       PIC X(44).
+
+   05 FILLER REDEFINES W-FicEnt-Don.
+      10 W-FicEnt-DonCtr-CodPrd          PIC XX.
+      10 W-FicEnt-DonCtr-NumPol          PIC 9(7).
+      10 W-FicEnt-DonCtr-Sit             PIC X.
+         88 W-FicEnt-DonCtr-Sit-Crs      VALUE 'C'.
+         88 W-FicEnt-DonCtr-Sit-Itc      VALUE 'I'. 
+      10 FILLER                          PIC X(14).
+
+   05 FILLER REDEFINES W-FicEnt-Don.
+      10 W-FicEnt-DonTet-Tit             PIC X(3).
+      10 W-FicEnt-DonTet-Nom             PIC X(20).
+      10 W-FicEnt-DonTet-Prn             PIC X(20).
+      10 W-FicEnt-DonTet-Sit             PIC X.
+         88 W-FicEnt-DonTet-Sit-Crs      VALUE 'C'.
+         88 W-FicEnt-DonTet-Sit-Itc      VALUE 'I'. 
